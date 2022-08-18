@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------------------------------header---------------------------------------------------*/
+
+header{
+    background-color: #1083AD;
+    font-family: 'Nerko One', cursive;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+
+
+}
+header nav{
+
+   width: 700px;
+    margin:10vh 0 0 20vw;
+
+}
+.navegacao nav a {     
+            border-radius: 5px;
+            font-size: 24px;
+            background: linear-gradient(90deg, rgba(255,137,5,1) 7%, rgba(248,173,10,1) 77%);
+            color: white;
+            margin-left:50px;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+}
+.navegacao nav a:hover{
+
+    background: rgb(244, 199, 116);
+
+}
+.logo{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+}
+
+header img{
+
+        width: 200px;
+
+}
+header h1{
+    color: white;
+       margin: auto;
+        font-size: 36px;
+}
+/*---------------------------------------main------------------------------------------------*/
+
+
+main{
+
+    background-color:white ;
+  
+    padding-bottom: 30px;
+    
+}
+main h2{
+
+    text-align: center;
+}
+main img{
+   
+
+   
+        width: 100px;
+   
+}
+main h2{
+    
+    padding-top:30px;
+    
+    font-family: 'Secular One', sans-serif;
+    color: #1083AD;
+    margin-bottom: 50px;
+}
+main p{
+    font-family: 'Secular One', sans-serif;
+    text-align: start;
+    margin: 20px 0 10px 10px;
+    
+
+}
+.alinhamento{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1{
+    
+    margin: 50px 0 50px 0;
+    background-color: orange;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.circulo img{
+    margin:20px 0 0 50px;
+    padding: 30px 30px 30px 30px;
+    background-color: orange;
+    border-radius: 1000px;
+    width: 150px;
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+/*--------------------------------footer---------------------------------------------*/
+
+footer{
+
+    font-family: 'Secular One', sans-serif;
+background-color:#1083AD ;
+
+
+}
+address {
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+}
+address{
+   
+    margin-left: 30px;
+
+    padding: 30px 0 5px 0;
+
+}
+
+address p{
+    font-size: 12px;
+margin-bottom: 10px;
+
+}
+address img{
+    
+        margin-top: 110px;
+
+        width: 40px;
+
+}
+address .ima{
+
+margin-left: 300px;
+
+}
+
+/*----------------------------------main loja-------------------------------------------*/
+.mainloja{
+margin: 50px 0 0 70px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1f 1fr 1f;
+gap:20px;
+
+
+}
+.quadrado img{
+
+    height: 100px;
+}
+.quadrado{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 200px;
+height: 350px;
+border: 2px solid orange;
+border-radius:10px;
+
+}
+input[type=button]{
+
+    background: linear-gradient(90deg, rgba(255,137,5,1) 7%, rgba(248,173,10,1) 77%);
+padding: 9px;
+border-radius: 10px;
+border-style: none;
+}
+
+input[type=button]:hover{
+
+    background: rgb(243, 179, 60);
+
+}
+.quadrado img{
+
+    margin-top: 10px;
+}
+.quadrado span{
+
+    color:#1083AD;
+    
+
+}
+
+
