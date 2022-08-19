@@ -86,14 +86,46 @@ main p{
     
 
 }
+.fundo{
+
+       z-index: 1;
+        position: absolute;
+        top:300px;
+        left:300px;
+        opacity: 0.4;
+        background-color: #1083AD;
+        width: 800px;
+        height: 580px;
+        border-radius: 30px;
+
+}
+.fundo2{
+
+    z-index: 1;
+     position: absolute;
+     top:95%px;
+     left:300px;
+     opacity: 0.4;
+     background-color: #1083AD;
+     width: 800px;
+     height: 580px;
+     border-radius: 30px;
+
+}
 .alinhamento{
     display:flex;
-    align-items: center;
-    justify-content: center;
+  margin-right: 200px;
+    justify-content: right;
+}
+.ali2{
+    display:flex;
+  margin-left: 200px;
+    justify-content: left;
+
 }
 .p1{
-    
-    margin: 50px 0 50px 0;
+    z-index: 2;
+    margin: 38px 0 50px 0;
     background-color: orange;
     width: 500px;
     padding: 30px;
@@ -103,6 +135,14 @@ main p{
 .circulo img{
     margin:20px 0 0 50px;
     padding: 30px 30px 30px 30px;
+    background-color: orange;
+    border-radius: 1000px;
+    width: 150px;
+
+}
+#joao img{
+    margin:20px 0 0 50px;
+    padding: 45px 30px 45px 30px;
     background-color: orange;
     border-radius: 1000px;
     width: 150px;
