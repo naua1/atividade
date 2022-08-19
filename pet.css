@@ -86,6 +86,12 @@ main p{
     
 
 }
+#imagem{
+
+    width: 800px;
+    position: absolute;
+   top: 270vh;
+}
 .fundo{
 
        z-index: 1;
@@ -164,8 +170,7 @@ footer{
 
     font-family: 'Secular One', sans-serif;
 background-color:#1083AD ;
-
-
+    margin-top: 100px;
 }
 address {
 
