@@ -112,6 +112,7 @@ main p{
      border-radius: 30px;
 
 }
+
 .alinhamento{
     display:flex;
   margin-right: 200px;
@@ -215,11 +216,40 @@ gap:20px;
 .quadrado{
 display: flex;
 flex-direction: column;
+z-index: 3;
 align-items: center;
 width: 200px;
 height: 350px;
 border: 2px solid orange;
 border-radius:10px;
+
+}
+.fundo3{
+
+    z-index: 1;
+     position: absolute;
+     top:30%;
+     right:50%;
+     opacity: 0.4;
+     background-color: #1083AD;
+     width: 600px;
+     height: 400px;
+     
+     border-radius: 30px;
+
+}
+.fundo4{
+
+    z-index: 1;
+     position: absolute;
+     top: 130%;
+     left:47%;
+     opacity: 0.4;
+     background-color: #1083AD;
+     width: 600px;
+     height: 400px;
+     
+     border-radius: 30px;
 
 }
 input[type=button]{
