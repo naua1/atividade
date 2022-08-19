@@ -205,6 +205,25 @@ input[type=button]:hover{
     
 
 }
+.seta{
+
+   width: 100px;
+   border-radius:1000px ;
+    background-color: orange;
+    margin-left: 90%;
+    margin-top: 50px;
+    
+
+}
+.seta:hover{
+
+  
+    opacity: 0.5;
+    
+     
+ 
+ }
+
 /*-------------------------------------------main agenda--------------------------------*/
 
 
